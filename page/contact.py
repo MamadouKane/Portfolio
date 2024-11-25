@@ -13,8 +13,8 @@ load_dotenv()
 
 def send_email(sender_email, subject, message_content, attachment=None):
     # Configuration SMTP
-    smtp_server = "smtp.gmail.com"  # Gmail
-    smtp_port = 587
+    smtp_server = os.getenv("SERVER_ADRESS")  # Gmail
+    smtp_port = os.getenv("PORT")
     my_email = os.getenv("EMAIL")
     my_password = os.getenv("EMAIL_PASSWORD")
 

@@ -42,7 +42,7 @@ def about_me():
         st.title('About Me :)')
         
         # Top title
-        st.write(f"""<div class="title"><strong>My name is</strong> Mamadou KANE👋</div>""", unsafe_allow_html=True)
+        st.write(f"""<div class="title"><strong>My name is</strong> Mamadou KANE 😎</div>""", unsafe_allow_html=True)
 
         # Image (static and rounded) uncomment it if you prefer this one
         st.write(f"""
@@ -107,6 +107,6 @@ def about_me():
 
         # CV
         with st.container():
-            col1, col2,col3 = st.columns([1,8,1])
-            with col2:
-                pdf_viewer("data/CV_DS1.pdf")
+            # col1, col2,col3 = st.columns([1,5,1])
+            # with col2:
+            pdf_viewer("data/CV_DS1.pdf")

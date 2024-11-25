@@ -79,7 +79,7 @@ def experiences():
                 ![SCRUM agile method](https://img.shields.io/badge/SCRUM%20agile%20method-E34F26.svg?style=for-the-badge)
                 ![NLP](https://img.shields.io/badge/NLP-marron.svg?style=for-the-badge)
                 ![Spacy](https://img.shields.io/badge/Spacy-white.svg?style=for-the-badge&logo=Spacy&logoColor=blue)
-                        
+                ![Time Series](https://img.shields.io/badge/Time%20Series-yellow.svg?style=for-the-badge)
             """)
         
         with rightcolum:
