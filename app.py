@@ -37,10 +37,10 @@ selected = option_menu(
 
 # ***************************************************** ABOUT ME ********************************
 if selected=='Home':
-    _,col2,_ = st.columns([1,8,1])
-    with col2:
-        # About me
-        about_me()
+    # _,col2,_ = st.columns([1,8,1])
+    # with col2:
+    # About me
+    about_me()
 
 
 # ***************************************************** EXPERIENCES ********************************  

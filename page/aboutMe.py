@@ -106,7 +106,7 @@ def about_me():
         st.markdown("<br>", unsafe_allow_html=True)
 
         # CV
-        with st.container():
-            # col1, col2,col3 = st.columns([1,5,1])
-            # with col2:
+        
+        col1, col2,col3 = st.columns([1,8,1])
+        with col2:
             pdf_viewer("data/CV_DS1.pdf")
