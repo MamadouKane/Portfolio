@@ -107,6 +107,16 @@ def about_me():
 
         # CV
         
-        col1, col2,col3 = st.columns([1,8,1])
-        with col2:
+        with st.container():
+            st.markdown(
+                """
+                <style>
+                .stContainer > div {
+                    width: 55%;
+                    margin: auto;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True
+            )
             pdf_viewer("data/CV_DS1.pdf")

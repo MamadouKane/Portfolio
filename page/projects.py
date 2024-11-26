@@ -223,7 +223,7 @@ def projects():
             st.markdown(
                 f"""
                 <div style="text-align: center;">
-                    <img src="data:image/png;base64,{image_to_base64('data/dashboard.png')}" alt="Architecture" style="max-width: 100%; height: auto;">
+                    <img src="data:image/png;base64,{image_to_base64('data/dashboard.png')}" alt="Architecture" style="max-width: 90%; height: auto;">
                 </div>
                 """,
                 unsafe_allow_html=True
@@ -235,7 +235,7 @@ def projects():
             st.markdown(
                 f"""
                 <div style="text-align: center;">
-                    <img src="data:image/png;base64,{image_to_base64('data/sales_analysis_steps.png')}" alt="Architecture" style="max-width: 100%; height: auto;">
+                    <img src="data:image/png;base64,{image_to_base64('data/sales_analysis_steps.png')}" alt="Architecture" style="max-width: 90%; height: auto;">
                 </div>
                 """,
                 unsafe_allow_html=True
