@@ -9,7 +9,23 @@ from page.contact import send_email
 
 st.set_page_config(page_title="MK portfolio", page_icon='📋', layout='wide')
 
-    
+
+st.markdown(
+    """
+    <style>
+    /* Forcing the menu to stay in a single line */
+    div[data-testid="stHorizontalBlock"] {
+        flex-wrap: nowrap; /* Prevent wrapping */
+        overflow-x: auto; /* Allow horizontal scrolling if needed */
+    }
+    div[data-testid="stHorizontalBlock"] > div {
+        flex: 0 0 auto; /* Prevent shrinking of items */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 selected = option_menu(
     menu_title="",
     options= ["Home","Experiences","Projects", "Contact" ],
