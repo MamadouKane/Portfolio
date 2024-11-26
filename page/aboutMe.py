@@ -5,7 +5,7 @@ from streamlit_pdf_viewer import pdf_viewer
 
 # Convert  PDF file to base64
 def get_pdf_download_link(pdf_bytes, filename):
-    b64 = base64.b64encode(pdf_bytes).decode()  # Encode le fichier en base64
+    b64 = base64.b64encode(pdf_bytes).decode() 
     href = f"""
     <a href="data:application/pdf;base64,{b64}" download="{filename}">
         <button style="
