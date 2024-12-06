@@ -35,7 +35,7 @@ def about_me():
             img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
 
         # PDF CV file
-        with open("data/CV_DS1.pdf", "rb") as pdf_file:
+        with open("data/CV_DS2.pdf", "rb") as pdf_file:
             pdf_bytes = pdf_file.read()
 
         st.subheader("Hi! Welcome to my portfolio :wave:")
@@ -97,12 +97,12 @@ def about_me():
         # st.download_button(
         #     label="📄 Download my CV",
         #     data=pdf_bytes,
-        #     file_name="CV_DS1.pdf",
+        #     file_name="CV_DS2.pdf",
         #     mime="application/pdf",
         # )
 
         # Download CV button
-        st.markdown(get_pdf_download_link(pdf_bytes, "CV_DS1.pdf"), unsafe_allow_html=True)
+        st.markdown(get_pdf_download_link(pdf_bytes, "CV_DS2.pdf"), unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
 
         # CV
@@ -119,4 +119,4 @@ def about_me():
                 """,
                 unsafe_allow_html=True
             )
-            pdf_viewer("data/CV_DS1.pdf")
+            pdf_viewer("data/CV_DS2.pdf")
