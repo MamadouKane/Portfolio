@@ -18,7 +18,76 @@ def projects():
     st.header("🚀 My Projects")
     st.write('---') 
 
+
     # ********************************************************** PROJECT 1 *************************************************************
+
+    with st.container():     
+        
+        st.header("RAG chat with your pdf")
+        st.subheader("Overview")
+        st.markdown("""
+            ### 🤖 Chat with PDF locally using Ollama + LangChain
+
+            A powerful local RAG (Retrieval Augmented Generation) application that lets you chat with your PDF documents using Ollama and LangChain. This project includes both a Jupyter notebook for experimentation and a Streamlit web interface for easy interaction.
+
+            ### ✨ Features
+
+            - 🔒 Fully local processing - no data leaves your machine
+            - 📄 PDF processing with intelligent chunking
+            - 🧠 Multi-query retrieval for better context understanding
+            - 🎯 Advanced RAG implementation using LangChain
+            - 🖥️ Clean Streamlit interface
+            - 📓 Jupyter notebook for experimentation
+        """)
+
+        st.markdown('''<h6> <em>Tools : </h6>''',unsafe_allow_html=True)
+        st.markdown("""
+            ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+            ![Ollama](https://img.shields.io/badge/Ollama-red.svg?style=for-the-badge&logo=Ollama&logoColor=white)
+            ![LLM](https://img.shields.io/badge/LLM-purpe.svg?style=for-the-badge&logo=LLM&logoColor=white)
+            ![Jupyter](https://img.shields.io/badge/Jupyter-3670A0?style=for-the-badge&logo=Jupyter&logoColor=ffdd54)
+            ![Chroma](https://img.shields.io/badge/Chroma-yellow.svg?style=for-the-badge&logo=Chroma&logoColor=white)
+            ![Embedding model](https://img.shields.io/badge/Embedding%20model-ffdd54.svg?style=for-the-badge)
+            ![Streamlit](https://img.shields.io/badge/Streamlit-black.svg?style=for-the-badge&logo=Streamlit&logoColor=red)
+            ![LangChain](https://img.shields.io/badge/LangChain-blue.svg?style=for-the-badge&logo=LangChain&logoColor=ffdd54)
+            
+        """)
+
+        # with st.container():
+        # st.subheader("Project architecture")
+        # st.image(archi_scoring) # , width=300
+
+       
+        with st.container():
+            st.subheader("APP UI")
+            # center image
+            st.markdown(
+                f"""
+                <div style="text-align: center;">
+                    <img src="data:image/png;base64,{image_to_base64('data/st_app_ui.png')}" alt="app UI" style="max-width: 95%; height: auto;">
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown(
+            """
+            <div style="display: flex; justify-content: center; gap: 20px;">
+                <a href="https://github.com/MamadouKane/RAG_chat_with_your_pdf" target="_blank">
+                    <button style="padding:10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; font-size:16px; cursor:pointer;">
+                        View code on GitHub
+                    </button>
+                </a>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+
+
+    # ********************************************************** PROJECT 2 *************************************************************
+    st.write('---')
     with st.container():     
         image_column, text_column = st.columns((1,2))
         with image_column:
@@ -64,7 +133,7 @@ def projects():
 
             
             
-    # ********************************************************** PROJECT 2 *************************************************************
+    # ********************************************************** PROJECT 3 *************************************************************
     st.write('---')
     with st.container():     
         
@@ -119,7 +188,7 @@ def projects():
 
 
         
-    # ********************************************************** PROJECT 3 *************************************************************
+    # ********************************************************** PROJECT 4 *************************************************************
     st.write('---')
     with st.container():     
         
@@ -188,7 +257,7 @@ def projects():
         )
 
 
-    # ********************************************************** PROJECT 4 *************************************************************
+    # ********************************************************** PROJECT 5 *************************************************************
     st.write('---')
     with st.container():     
         
@@ -256,7 +325,7 @@ def projects():
         )
 
 
-    # ********************************************************** PROJECT 5 *************************************************************
+    # ********************************************************** PROJECT 6 *************************************************************
     st.write('---')
     with st.container():     
         
