@@ -23,7 +23,7 @@ def projects():
 
     with st.container():     
         
-        st.header("RAG chat with your pdf")
+        st.header("💬 RAG chat with your pdf")
         st.subheader("Overview")
         st.markdown("""
             ### 🤖 Chat with PDF locally using Ollama + LangChain
