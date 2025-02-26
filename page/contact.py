@@ -113,12 +113,6 @@ def generate_captcha():
     return captcha_text, image
 
 
-BLACKLISTED_EMAILS = ["mamadou@gmail.com"]
-
-def is_blacklisted(email):
-    domain = email.split("@")[1]
-    return email in BLACKLISTED_EMAILS 
-
 # Chemin vers le fichier de rate limiting
 RATE_LIMIT_FILE = "rate_limit.json"
 
