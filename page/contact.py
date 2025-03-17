@@ -27,27 +27,6 @@ my_email = os.getenv("EMAIL")
 my_password = os.getenv("EMAIL_PASSWORD")
 options = os.getenv("OPTIONS")
 
-# # Configuration SMTP
-# smtp_server = os.getenv("SERVER_ADRESS")  # Adresse du serveur SMTP
-# smtp_port = int(os.getenv("PORT"))  # S'assurer que c'est bien un entier
-# my_email = os.getenv("EMAIL")
-# my_password = os.getenv("EMAIL_PASSWORD")
-# options = os.getenv("OPTIONS")
-
-# def is_valid_email(email):
-#     """ Vérifie si l'email a un format valide """
-#     pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
-#     return re.match(pattern, email) is not None
-
-# def email_domain_exists(email):
-#     """ Vérifie si le domaine de l'email a un enregistrement MX (serveur de mail) """
-#     try:
-#         domain = email.split("@")[1]
-#         records = dns.resolver.resolve(domain, 'MX')  # Recherche des serveurs mail
-#         return bool(records)  # True si un serveur mail existe, False sinon
-#     except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.LifetimeTimeout):
-#         return False  # Domaine inexistant ou pas de serveur mail
-
 
 # https://mailboxlayer.com/dashboard
 def email_exists(email):

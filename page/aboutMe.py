@@ -79,7 +79,7 @@ def about_me():
             # Top title
             st.write(f"""<div class="title"><strong>My name is</strong> Mamadou KANE 😎</div>""", unsafe_allow_html=True)
             st.write("""
-                - 🧑‍💻 I am passionate about technology and always eager to adapt to its advancements. 
+                - 🧑‍💻 I am passionate about data science and always eager to adapt to its advancements. 
                     I hold a ***Master's degree in Data Exploration and Decision Making***, with strong skills in ***Machine Learning, Deep Learning, 
                     and Business Intelligence***. This background allows me to be a valuable asset to any company.
 
