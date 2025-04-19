@@ -31,8 +31,8 @@ def about_me():
             st.write(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
         # Profile image file
-        with open("data/profil.png", "rb") as img_file:
-            img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
+        with open("data/profil.jpg", "rb") as img_file:
+            img = "data:image/jpg;base64," + base64.b64encode(img_file.read()).decode()
 
         # PDF CV file
         with open("data/CV_DS_FR.pdf", "rb") as pdf_file:
