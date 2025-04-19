@@ -79,19 +79,13 @@ def about_me():
             # Top title
             st.write(f"""<div class="title"><strong>My name is</strong> Mamadou KANE 😎</div>""", unsafe_allow_html=True)
             st.write("""
-                - 🧑‍💻 I am passionate about data science and always eager to adapt to its advancements. 
-                    I hold a ***Master's degree in Data Exploration and Decision Making***, with strong skills in ***Machine Learning, Deep Learning, 
-                    and Business Intelligence***. This background allows me to be a valuable asset to any company.
-
-                - I am looking to continue my career in the data field, particularly as a data scientist.
-
-                - Currently, I am seeking a permanent (CDI) or fixed-term (CDD) contract position to bring my projects to life and contribute my skills to your organization. 
-                If you’re looking for a motivated and adaptable professional, feel free to reach out!
+                - 🧑‍💻 With a Master's degree in Data Science and Artificial Intelligence, 
+                     I have a solid theoretical and practical background in the development and production of Machine Learning and Deep Learning models. 
+                     I have acquired skills in the manipulation of textual and auditory models, as well as in the management of large data pipelines. 
+                - Enthusiastic and motivated, I'd like to put my knowledge at the service of innovative projects in Machine Learning, Artificial Intelligence and Generative AI. 
+                - 📅 Available immediately
                 
                 - 🏠 France - Belgique
-                - 🌏 Languages : 
-                    - French : Native
-                    - English : Professional 
                 """
             )
 
